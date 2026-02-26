@@ -1,0 +1,17 @@
+# SatMagSim – minimum run (Python 3.11)
+# GMAT R2025a API used via load_gmat.py (not a PyPI package)
+#
+# Entry points:
+#   SatMagSim_Base.py    – en sade temel sürüm
+#   SatMagSim.py         – en dengeli fiziksel simülasyon (ana sürüm)
+#   SatMagSim_Extended.py – en geniş kabiliyet (manevra, LoadScript, initial_Kepler)
+numpy>=1.20
+scipy>=1.7
+matplotlib>=3.5
+pymap3d>=2.0
+pyserial>=3.5
+customtkinter>=5.0
+Pillow>=8.0
+spacepy>=0.6
+geopack>=1.0
+cartopy>=0.22
